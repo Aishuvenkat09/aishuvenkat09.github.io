@@ -2,7 +2,7 @@
 
 ## Preview
 
-[![Portfolio Preview](img/Aishwarya_Portfolio_Preview.png)](Portfolio)
+[![Portfolio Preview](img/Aishwarya_Portfolio_Preview.PNG)](Portfolio)
 
 **[View Live Preview](https://aishuvenkat09.github.io/)**
 
