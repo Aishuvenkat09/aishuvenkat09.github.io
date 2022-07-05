@@ -2,7 +2,7 @@
 
 ## Preview
 
-[![Portfolio Preview](img/Aishwarya Vantipuli portfolio.PNG)](Portfolio)
+[![Portfolio Preview](img/preview.PNG)](Portfolio)
 
 **[View Live Preview](https://aishuvenkat09.github.io/)**
 
