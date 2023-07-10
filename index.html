@@ -114,20 +114,21 @@
                         <ul class="fa-ul mb-0">
                             <li>
                                 <i class="fa-li fa fa-circle text-info"></i>
-                                Published a paper on Pediatric Bone age Prediction of traumatic hands using a new PyTorch based framework 
-                                for deep learning in Healthcare imaging by NVIDIA named MONAI
+                                Developed an automated bone age interpretation tool that predicts bone age on more than
+                                20,000 trauma hand radiographs and achieved MAE of ±6 months using NVIDIA MONAI deep learning framework.
 
                             </li>
                             <li>
                                 <i class="fa-li fa fa-circle text-info"></i>
-                                Streamlined a data versioning tool named DVC into the workflow to build pipelines and various data science 
-                                experiments efficiently for building data pipelines and hyperparameter tuning
+                                Streamlined Multi-GPU training pipelines to build different experiments for finding the optimal network architecture 
+                                and hyperparameters using data versioning tools like DVC, Weights and Biases & Pachyderm.
                             </li>
                             <li>
                                 <i class="fa-li fa fa-circle text-info"></i>
-                                Conducted various workshops for best practices in software development and ETL workflows. Managing a 
-                                tech community to establish connections, conduct seminars and discuss Q&A within the organization.
+                                Published and presented a poster on A Microservices based
+                                open-source MLOPs Stack for Medical Imaging Research at conference SIIM 2022-Society for Imaging Informatics in Medicine.
 
+                                
                             </li>
                           
                             <li>
@@ -413,6 +414,71 @@ and positions and reduce data collection time by 65%
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
             <div class="my-auto">
                 <h2 class="mb-5">Projects</h2>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0"><a href="https://github.com/cchmc-dll/boneage-arc"
+                                target="_blank">Bone age Prediction</a></h3>
+                        <p>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <i class="fa-li fa fa-circle text-info"></i>
+                                Accomplished preprocessing Normal CCHMC full training dataset 
+                                (Predicting Chronological age from trauma hands) Investigated multiple cleaning techniques to
+                                remove the lettering artifacts, enhancing contrast of X-rays by implementing CLAHE.
+
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-circle text-info"></i>
+                                Utilized Multi GPU parallelization for training and implemented it for boneage workflow. 
+                                Some of the profiling tools used are Deep Learning Profiler (DLProf)​, NVIDIA Nsight Systems. 
+                                
+                            </li>
+                            
+                            <li>
+                                <i class="fa-li fa fa-circle text-info"></i>
+                                Generated Low resolution images by capturing primitive shapes and colors in Stage-I GAN. 
+                                In Stage-II, High Resolution images are produced by training a  GAN on low res images.
+                                Accelerated training performance using Horovod, a deep learning multi gpu framework on boneage project and also built Open MPI for High performance computing.
+
+                            </li>
+                      <li>
+                                <i class="fa-li fa fa-circle text-info"></i>
+                                Streamlined boneage workflow in new open-source framework by MONAI. 
+                              Created a pipeline to load, preprocess, train, evaluate the data by designing a single training script
+                          which works for different architectures and parameters.
+
+                            </li>
+
+                        <li>
+                            Expanded the model optimization capability and
+                            integrated boneage workflow by using new tool Weights and Biases (Wandb) for experiment tracking.
+
+                            </li>
+
+                        <li>
+                            Minimized the Mean Absolute Error on RSNA test data by 54% (from 11 to 5 months) using MONAI framework. 
+                            Implemented unit testing.
+
+                            </li>
+                            
+                        <li>
+                            Bolstered AI-ARC team on technical issues and error solving methods related to wandb, cuda, python and git.
+                         </li>
+                            
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">January 2021</span>
+                    </div>
+                </div>
+
+
+
+
+
+
+                
                 <div class="resume-item d-flex flex-column flex-md-row mb-5">
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0"><a href="https://github.com/Aishuvenkat09/Text-to-Image-Generation"
